@@ -7,5 +7,5 @@ Made to add aliases in more organized way.
 To start this configuration you need to add line to your <mark> ~/.config/.bashrc </mark>
 
 ```
-source /PathToThisFolder/bashrc
+source /RelativePathToThisFolder/init.sh
 ```
