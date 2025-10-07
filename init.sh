@@ -1,6 +1,6 @@
-# Init other project files
+path="$HOME/.config/bash"
 
-# Auto Start All aliases
-for file in ~/.config/bash/aliases/*.sh; do
+# Auto load all aliases
+for file in "$path/aliases/"*.sh; do
   [ -f "$file" ] && source "$file"
 done
