@@ -3,6 +3,7 @@ alias gi='git init'
 
 alias ga='git add'
 alias gmv='git mv'
+alias gres='git restore'
 alias grm='git rm'
 
 alias gl='git log'
